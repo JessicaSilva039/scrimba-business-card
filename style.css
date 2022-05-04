@@ -75,7 +75,7 @@ color: #F5F5F5;
 
 /*button section*/
 
-/*row containing the buttons*/
+/*row containing the button*/
 .buttons{
 margin: auto;
 padding-top: 29px;
@@ -97,12 +97,11 @@ background-image: url("./images/email.png");
 /*email button and text*/
 .email{
 display: flex;
-grid-gap: 8px;
 
 justify-content: center;
 align-items: center;
 padding: 9px 13px 9px 11px;
-width: 115px;
+width: 247px;
 height: 34px;
 
 /* white */
@@ -118,33 +117,6 @@ box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 6px;    
 }
 
-/*linkedin icon*/
-.linkedinicon{
-width: 16px;
-height: 16px;  
-background-size: cover;
-background-repeat: no-repeat;
-background-image: url("./images/linkedin.png");
-}
-
-/*linkedin button and text*/
-.linkedin{
-display: flex;
-grid-gap: 8px;
-justify-content: center;
-align-items: center;
-padding: 9px 13px 9px 11px;
-
-width: 115px;
-height: 34px;
-
-color: #FFFFFF;
-background: #5093E2;
-/* shadow/sm */
-
-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-border-radius: 6px;   
-}
 
 .abouttitle{
 padding-left: 36px;
